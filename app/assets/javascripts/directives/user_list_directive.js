@@ -4,7 +4,6 @@ demoAppDirectives.directive('userList', function() {
   
   return {
     restrict: 'E',
-    //template: ''
     templateUrl: '/templates/user_list'
   }
   

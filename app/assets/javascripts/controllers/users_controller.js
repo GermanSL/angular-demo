@@ -3,11 +3,10 @@ var demoAppControllers = demoAppControllers || angular.module('demoAppController
 demoAppControllers.controller('UserListController', 
     ['$scope', '$location', 
     function($scope, $location) {
-
+        
         $scope.showUserDetails = function(user){
             $location.path('/users/'+user.id);
         };
-  
     }
 ]);
 

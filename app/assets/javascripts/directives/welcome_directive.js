@@ -4,7 +4,6 @@ demoAppDirectives.directive('welcome', function() {
   
   return {
     restrict: 'A',
-    //template: ''
     templateUrl: '/templates/welcome'
   }
   
