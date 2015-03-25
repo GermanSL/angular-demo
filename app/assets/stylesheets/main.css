@@ -1,0 +1,149 @@
+p {
+  margin: 0;
+}
+
+.main-container > header {
+  background: #2ecc71;
+  padding: 10px;
+  color: #fff;
+}
+
+.main-container > header > p {
+  color: #fff;
+  font-size: 200%;
+  text-align: center;
+}
+
+.content {
+  height: 100vh;
+}
+
+.content > aside {
+  float: left;
+  width: 35%;
+  height: 100%;
+  background: #ecf0f1;
+}
+.content > section {
+  float: left;
+  width: 65%;
+  height: 100%;
+}
+
+/* USER LIST */
+.user-list-container {
+  height: inherit;
+}
+
+    /* USER LIST HEADER */
+    .user-list-container > header {
+      padding: 10px;
+      border-bottom: 1px solid #bdc3c7;
+    }
+    .user-list-container > header > ul {
+      padding: 0;
+      margin: 0;
+      display: table;
+      width: 100%;
+    }
+    .user-list-container > header > ul li {
+      display: table-cell;
+      vertical-align: bottom;
+    }
+    .user-list-container > header > ul li:first-child {
+      width: 20%;
+      font-size: 150%;
+    }
+    .user-list-container > header > ul li:nth-child(even) {
+      width: 40%;
+    }
+    .user-list-container > header > ul li:last-child {
+      width: 30%;
+      text-align: right;
+    }
+    /* USER LIST SECTION */
+    .user-list-container > section {
+      padding: 10px;
+    }
+    
+.details > header {
+  border-bottom: 1px solid #bdc3c7;
+  padding: 10px 25px;
+}
+.details > header > ul {
+  padding: 0;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+.details > header > ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: right;
+}
+.details > header > ul li:first-child {
+  font-size: 150%;
+  width: 80%;
+  text-align: left;
+}
+
+.details > section {
+  padding: 10px 25px;
+}
+.details > section > ul {
+  padding: 0;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+.details > section > ul li {
+  display: table-cell;
+  vertical-align: middle;
+}
+.details > section > ul li:first-child {
+  width: 25%;
+}
+.details > section > ul li p {
+  line-height: 40px;
+}
+
+.line-detail > label {
+  width: 20%;
+  margin: 0;
+  line-height: 35px;
+  background: #ecf0f1;
+  padding-left: 5px;
+  text-align: left;
+}
+.line-detail{
+    border-bottom: 1px solid #ecf0f1;
+    margin-bottom: 1px;
+}
+.top-border{
+    border-top: 1px solid #ecf0f1;
+}
+
+.user-form > header {
+  border-bottom: 1px solid #bdc3c7;
+  padding: 10px 25px;
+}
+.user-form > header > ul {
+  padding: 0;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+.user-form > header > ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: right;
+}
+.user-form > header > ul li:first-child {
+  font-size: 150%;
+  width: 80%;
+  text-align: left;
+}
+
+.user-form > section {
+  padding: 10px 25px;
+}
